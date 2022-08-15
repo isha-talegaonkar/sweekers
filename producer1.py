@@ -31,7 +31,7 @@ def google_job_search(job_title, city_state, post_age="week"):
             "engine": "google_jobs",
             "q": f"{job_title} {city_state}",
             "hl": "en",
-            "api_key": "08f737f222f10ea16edbc621d444fbb04e8490311439ef55629e085f577fab6e",
+            "api_key": "",
             "chips":f"date_posted:{post_age}", 
             }
     search = GoogleSearch(params)
